@@ -9,7 +9,7 @@
 * Change the computer name
 * Setup static IP address for domain (XYZ.COM)
 * Assign DNS server to itself (add secondary DNS server as 8.8.8.8 to access internet)
-* Install Active DIrectory Windows feature
+* Install Active Directory Windows feature
 ```powershell
 Install-WindowsFeature AD-Domain-Services -IncludeManagementTools
 Import-Module ADDSDeployment
